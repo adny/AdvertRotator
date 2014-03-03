@@ -12,16 +12,16 @@ Usage
 Add the JS files to your project, and include them in the html
 
 ie:
-
+```html
 <script src="/advertRotator/advertRotator.js"></script>
 <script src="/advertRotator/ar-bing.js"></script>
 <script src="/advertRotator/ar-adduplex.js"></script>
-
-And dont forgot to add the libs for each oh the advert networks too
+```
+And dont forgot to add the libs for each of the advert networks too (before advertRotator scripts)
 
 
 Then you use it like so:
-
+```html
 <div id="listAdvert" class="advert"
   data-win-control="AdvertRotator.Controls.AdControl"
   data-win-options="{sizes: [ {min: '625', max: '999999'},
@@ -30,5 +30,5 @@ Then you use it like so:
                     networks: [{type: 'bing', id: '<<id>>', size: ['10053957','10241954', '10241954'] },
                               {type: 'adduplex', id: '<<id>>', size: ['250x250','500x130', '300x250'] }]
                     }"></div>
-                    
+```
 So sizes is the range in which the advert will need to adapt to a new size, and size in networks corresponds to that.

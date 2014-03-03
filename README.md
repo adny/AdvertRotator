@@ -22,7 +22,7 @@ And dont forgot to add the libs for each of the advert networks too (before adve
 
 Then you use it like so:
 ```html
-<div id="listAdvert" class="advert"
+<div 
   data-win-control="AdvertRotator.Controls.AdControl"
   data-win-options="{sizes: [ {min: '625', max: '999999'},
                               {min: '500', max: '625'},

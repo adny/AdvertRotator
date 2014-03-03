@@ -6,6 +6,8 @@ A Windows 8.1 advert rotator in for HTML/JS apps
 
 Firstly, use this at your own risk for the moment, it is in very early stages, and is quite tailored to my own needs at the moment, thou feel free to fork/push changes.
 
+Currently just support for Bing and AdDuplex (the only ones that i know work!)
+
 Usage
 =============
 

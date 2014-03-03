@@ -19,9 +19,7 @@
                 //Adverts are loaded on start
             },
             resized: function() {
-                if (this.args && this.args.resize) {
 
-                }
             },
             dispose: function () {
                 this.control.onAdLoadingError = null;
